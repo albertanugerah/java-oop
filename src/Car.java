@@ -11,10 +11,11 @@ class Car {
 
 //    constuctor overloading = membuat lebih dari 1 constructor, syaratnya harus berbeda nama / jumlah parameter
     Car(String carName){
-        name = carName;
+        this(carName,null);
     }
 //    constructor tanpa parameter
     Car(){
+        this(null);
     }
 
     void newCar(String carName){

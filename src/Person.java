@@ -12,11 +12,13 @@ class Person {
 
 //    constructor overloading
     Person(String paramName){
-        name = paramName;
+        this(paramName,null);
     }
 
 //    constructor tanpa parameter
-    Person(){}
+    Person(){
+        this(null);
+    }
 
 
 
