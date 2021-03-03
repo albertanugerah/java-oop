@@ -3,7 +3,7 @@
 /shelf/
 /.idea/workspace.xml
 # Datasource local storage ignored files
-/../../../../../../../../../:\Users\hasud\OneDrive\Desktop\Coding\Java\java-oop\.idea/dataSources/
+#/../../../../../../../../../:\Users\hasud\OneDrive\Desktop\Coding\Java\java-oop\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
