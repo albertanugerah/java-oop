@@ -105,6 +105,13 @@ Object Class
         - Saat kita bikin kelas apapun dia selalu extends object.
         - class Object adalah super Class dari java.
 
+Polymorphism
+    - Polymorphism berasal dari bahasa Yunani yang berarti banyak bentuk.
+    - Dalam OOP, Polymorphism adalah kemampuan sebuah object berubah bentuk menjadi bentuk(Object) lain
+    - Polymorphism erat hubungannya dengan Inheritance
+
+
+
 
 
 

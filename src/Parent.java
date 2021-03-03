@@ -1,13 +1,10 @@
-class Parent {
-    String name;
-
-    String grandParent;
+class Parent extends Child{
 
     Parent(String name){
-        this.name = name;
+        super(name);
     }
     Parent(String name, String grandParent){
-        this.name = name;
+        super(name);
         this.grandParent = grandParent;
     }
 
