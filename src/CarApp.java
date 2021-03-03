@@ -5,10 +5,12 @@ public class CarApp {
         System.out.println(car1.launchedIn);
         car1.newCar("Serie 5");
 
-        var mercedes = new Car("G Class","Mercedes-Benz");
+        var mercedes = new Car("G Class");
+        mercedes.brand = "Merceded-Benz";
         mercedes.newSeries("G-Wagon");
 
-        var toyota = new Car("All New Fortuner","Toyota");
+        var toyota = new Car();
+        toyota.brand = "Toyota";
         toyota.newSeries("All New Fortuner");
     }
 }

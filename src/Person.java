@@ -10,6 +10,15 @@ class Person {
         address = paramAddress;
     }
 
+//    constructor overloading
+    Person(String paramName){
+        name = paramName;
+    }
+
+//    constructor tanpa parameter
+    Person(){}
+
+
 
     void sayHello(String paramName){
         System.out.println("Hello "+ paramName + ", My name is " + name);

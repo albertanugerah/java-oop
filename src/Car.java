@@ -9,6 +9,14 @@ class Car {
         brand = carBrand;
     }
 
+//    constuctor overloading = membuat lebih dari 1 constructor, syaratnya harus berbeda nama / jumlah parameter
+    Car(String carName){
+        name = carName;
+    }
+//    constructor tanpa parameter
+    Car(){
+    }
+
     void newCar(String carName){
         System.out.println(brand + " launching new car with the name, " + carName + " Launched in " + launchedIn  );
     }

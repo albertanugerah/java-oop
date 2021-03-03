@@ -11,10 +11,11 @@ public class PersonApp {
 
         person1.sayHello("Tassha");
 
-        Person person2 = new Person("Tassha","Ciledug");
+        Person person2 = new Person("Tassha");
 
         Person person3;
-        person3 = new Person("Andre","Jakarta");
+        person3 = new Person();
+        person3.name = "Bambang";
 
         person3.sayHello("Tassha");
     }
