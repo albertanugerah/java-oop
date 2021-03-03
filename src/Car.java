@@ -5,8 +5,8 @@ class Car {
 
 //    membuat constructor
     Car(String name, String brand){
-        name = name;
-        brand = brand;
+        this.name = name;
+        this.brand = brand;
     }
 
 //    constuctor overloading = membuat lebih dari 1 constructor, syaratnya harus berbeda nama / jumlah parameter
@@ -19,10 +19,10 @@ class Car {
     }
 
     void newCar(String name){
-        System.out.println(brand + " launching new car with the name, " + name + " Launched in " + launchedIn  );
+        System.out.println(this.brand + " launching new car with the name, " + name + " Launched in " + launchedIn  );
     }
 
     void newSeries(String carSeries){
-        System.out.println( carSeries + " is Car Series in " + brand);
+        System.out.println( carSeries + " is Car Series in " + this.brand);
     }
 }

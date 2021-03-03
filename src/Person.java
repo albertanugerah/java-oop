@@ -6,8 +6,8 @@ class Person {
 
 //    membuat construct
     Person(String name, String address){
-        name = name;
-        address = address;
+        this.name = name;
+        this.address = address;
     }
 
 //    constructor overloading
@@ -23,6 +23,6 @@ class Person {
 
 
     void sayHello(String name){
-        System.out.println("Hello "+ name + ", My name is " + name);
+        System.out.println("Hello "+ name + ", My name is " + this.name);
     }
 }
