@@ -91,6 +91,12 @@ Super Keyword
     - Sederhananya, super digunakan untuk mengakses class parent
     - Tidak hanya method, field milik parent class pun bisa kita akses menggunakan kata kunci super
 
+Super Constructor
+    -Tidak hanya untuk mengakses method atau field yang ada di parent class, kata kunci super juga bisa digunakan untuk mengakses constructor
+    -Namun syaratnya untuk mengakses parent class constructor, kita harus mengaksesnya di dalam class child constructor
+    -Jika sebuah class parent tidak memiliki constructor yang tidak ada parameter-nya (tidak memiliki default constructor), maka class child wajib mengakses constructor class parent tersebut.
+
+
 Object Class
     - Di Java, setiap class yang kita buat secara otomatis adalah turunan dari class Object
     - Walaupun tidak secara langsung kita eksplisit menyebutkan extends Object, tapi secara otomatis Java akan membuat class kita extends Object
