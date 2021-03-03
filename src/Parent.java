@@ -10,7 +10,7 @@ class Parent extends Child{
 
 
 
-    void Negor(String orang){
+    void negor(String orang){
         System.out.println("Woy "+ orang + " Apa Kabar lo Orang Tua " + this.name + " ?");
     }
 }

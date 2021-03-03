@@ -6,7 +6,7 @@ class GrandChild {
         this.name = name;
     }
 
-    void Negor(String orang){
+    void negor(String orang){
         System.out.println("Woy "+ orang + " Apa Kabar lo Cucu " + this.name + " ?");
     }
 }

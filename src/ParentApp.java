@@ -2,9 +2,9 @@ public class ParentApp {
     public static void main(String[] args) {
 
         var orangTua = new Parent("Albert");
-        orangTua.Negor("Ilham");
+        orangTua.negor("Ilham");
 
         var bocah = new Child("Yayang");
-        bocah.Negor("Bambang");
+        bocah.negor("Bambang");
     }
 }

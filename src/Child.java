@@ -10,7 +10,7 @@ class Child extends GrandChild{
         super(name);
         this.grandParent = grandParent;
     }
-    void Negor(String orang){
+    void negor(String orang){
         System.out.println("Woy "+ orang + " Apa Kabar lo Bocah " + this.name + " ?");
     }
 

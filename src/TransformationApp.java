@@ -2,23 +2,32 @@ public class TransformationApp {
     public static void main(String[] args) {
 
         GrandChild cucu = new GrandChild("Abe");
-        cucu.Negor("John");
+        cucu.negor("John");
 
         cucu = new Child("Abe");
-        cucu.Negor("John");
+        cucu.negor("John");
 
         cucu = new Parent("Abe");
-        cucu.Negor("John");
+        cucu.negor("John");
 
 
-        Negor(new Parent("Albert"));
-        Negor(new Child("Jamu"));
-        Negor(new GrandChild("Buyung"));
+        negor(new Parent("Albert"));
+        negor(new Child("Jami"));
+        negor(new GrandChild("Buyung"));
 
 
     }
+//Type Check and Cast(konversi tipe data)
+    static void negor(GrandChild cucu){
 
-    static void Negor(GrandChild cucu){
-        System.out.println("Hi " + cucu.name);
+        if(cucu instanceof Parent) {
+            Parent orangTua = (Parent) cucu;
+            System.out.println("Hi Orang Tua " + orangTua.name);
+        }else if(cucu instanceof Child){
+            Child anak = (Child) cucu;
+            System.out.println("Hi Anak " + anak.name);
+        }else{
+            System.out.println("Hi Cucu " + cucu.name);
+        }
     }
 }
