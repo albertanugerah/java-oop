@@ -5,9 +5,9 @@ class Person {
 //    final adalah kata kunci untuk menandakan tidak bisa diubah data/valuenya, dan langsung di deklarasikan"
 
 //    membuat construct
-    Person(String paramName, String paramAddress){
-        name = paramName;
-        address = paramAddress;
+    Person(String name, String address){
+        name = name;
+        address = address;
     }
 
 //    constructor overloading
@@ -22,7 +22,7 @@ class Person {
 
 
 
-    void sayHello(String paramName){
-        System.out.println("Hello "+ paramName + ", My name is " + name);
+    void sayHello(String name){
+        System.out.println("Hello "+ name + ", My name is " + name);
     }
 }
