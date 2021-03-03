@@ -36,7 +36,21 @@ Field
         - Jika final, berarti kita tidak bisa mengubah data field nya, namun jika tidak, kita bisa mengubah field nya
         - Untuk memanipulasi data field, sama seperti cara pada variable
         - Untuk mengakses field, kita butuh kata kunci . (titik) setelah nama object dan diikuti nama fields nya
+
 Method
+    - Selain menambahkan field, kita juga bisa menambahkan method ke object
+    - Cara dengan mendeklarasikan method tersebut di dalam block class
+    - Sama seperti method biasanya, kita juga bisa menambahkan return value, parameter dan method overloading di method yang ada di dalam block class
+    - Untuk mengakses method tersebut, kita bisa menggunakan tanda titik (.) dan diikuti dengan nama method nya. Sama seperti mengakses field
+
+Constructor
+    - Didalam class Java kita bisa membuat constructor, constuctor adalah method yang akan dipanggil saat pertama kali Object dibuat
+    - Mirip seperti method, kita bisa memberi perameter pada constructor
+    - Nama constrctor = nama class, dan tidak membutuhkan kata kunci void atau reuturn value
+
+    Note =  - ketika membuat constructor dan didalamnya ada parameter, maka Object yang kita buat akan error, karena kita menambahkan parameter didalam constructor,
+            - untuk memperbaikinya kita WAJIB menambahkan parameter didalam Objectnya.
+
 
 
 

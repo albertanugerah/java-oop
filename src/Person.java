@@ -4,6 +4,12 @@ class Person {
     final String country = "Indonesia";
 //    final adalah kata kunci untuk menandakan tidak bisa diubah data/valuenya, dan langsung di deklarasikan"
 
+//    membuat construct
+    Person(String paramName, String paramAddress){
+        name = paramName;
+        address = paramAddress;
+    }
+
 
     void sayHello(String paramName){
         System.out.println("Hello "+ paramName + ", My name is " + name);
