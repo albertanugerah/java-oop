@@ -6,6 +6,10 @@ public class PersonApp {
         person1.address = "Kreo";
 //        person1.country = "Singapore";//ERROR
 
+        System.out.println(person1.name);
+        System.out.println(person1.address);
+        System.out.println(person1.country);
+
         Person person2 = new Person();
 
         Person person3;
