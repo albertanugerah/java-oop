@@ -91,4 +91,15 @@ Super Keyword
     - Sederhananya, super digunakan untuk mengakses class parent
     - Tidak hanya method, field milik parent class pun bisa kita akses menggunakan kata kunci super
 
+Object Class
+    - Di Java, setiap class yang kita buat secara otomatis adalah turunan dari class Object
+    - Walaupun tidak secara langsung kita eksplisit menyebutkan extends Object, tapi secara otomatis Java akan membuat class kita extends Object
+    - Bisa dikatakan class Object adalah superclass untuk semua class yang ada di Java
+    Note :
+        - Saat kita bikin kelas apapun dia selalu extends object.
+        - class Object adalah super Class dari java.
+
+
+
+
 

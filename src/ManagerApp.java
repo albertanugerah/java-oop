@@ -9,5 +9,10 @@ public class ManagerApp {
         vp.name = "Anwar";
         vp.sayHello("Budi");
 
+        System.out.println(manager.toString());
+        System.out.println(manager);
+        System.out.println(vp.toString());
+        System.out.println(vp);
+
     }
 }
