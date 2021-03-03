@@ -25,3 +25,12 @@ Object
     Membuat Object
         - Object adalah hasil instansiasi dari sebuah class
         - Untuk membuat object kita bisa menggunakan kata kunci new, dan diikuti dengan nama Class dan kurung ()
+
+Field
+    - Fields/Properties/Attributes adalah data yang bisa disisipkan didalam Object
+    - Namun sebelum kita bisa memasukkan data di fields, kita harus mendeklarasikan data apa aja yang dimiliki object tersebut di dalam deklarasi class-nya
+    - Membuat field sama seperti membuat variable, namun ditempatkan di block class
+
+
+
+
