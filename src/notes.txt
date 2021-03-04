@@ -126,3 +126,47 @@ Variable Hiding
         Note :
              - Di java tidak ada field/attribute overriding tapi variable hidding, jadi field di class parent dan child itu independent, tidak ada hubungannya.
              - TIDAK DISARANKAN BIKIN NAMA VARIABLE YANG SAMA DI INHERITANCE(TURUNAN)
+Package
+    - Saat kita membuat aplikasi, bisa dipastikan kita akan banyak sekali membuat class
+    - Jika class terlalu banyak, kadang akan menyulitkan kita untuk mencari atau mengklasifikasikan jenis-jenis class
+    - Java memiliki fitur package, yaitu fitur mirip folder / direktori, dimana kita bisa menyimpan class-class kita di dalam package
+    - Sama seperti folder / direktori, package juga bisa nested, kita bisa menggunakan tanda titik (.) untuk membuat nested package
+    - Ketika kita menyimpan class di dalam package, maka diatas file Java nya, kita wajib menyebutkan nama package nya
+
+Access Modifier
+    - Access modifier adalah kemampuan membuat class, field, method dan constructor dapat diakses dari mana saja
+    - Sebelumnya teman-teman sudah melihat 2 access modifier, yaitu public dan default (no-modifier)
+    - Sekarang kita akan bahas access modifier lainnya
+
+    Access Level
+         Modifier       | Class   | Package | Subclass|   World  |
+         ----------------------------------------------------------
+         public         |    Y     |    Y   |    Y     |     Y   |
+         protected      |    Y     |    Y   |    Y     |     N   |
+         no modifier    |    Y     |    Y   |    N     |     N   |
+         private        |    Y     |    N   |    N     |     N   |
+         =========================================================
+
+    Public Class
+    - Saat kita membuat public class, kita hanya bisa membuat 1 public class di 1 file java
+    - Selain itu, nama public class harus sama dengan nama file
+
+Import
+    -Import adalah kemampuan untuk menggunakan class yang berada di package yang berbeda
+    - Syarat class yang bisa digunakan jika package nya berbeda adalah class yang harus public
+
+    Import Semua Package
+        Jika kita ingin mengimport semua class di dalam sebuah package, kita bisa menggunakan tanda *, misal
+        import eko.belajar.oop.data.*
+
+    Default Import
+        Secara default, semua class yang ada di package java.lang sudah auto import, jadi kita tidak perlu melakukan import secara manual
+        Contoh class String, Integer, Long, Boolean, dan lain-lain terdapat di package java.lang. Oleh karena itu, kita tidak perlu meng-import nya secara manual
+
+Abstract Class
+    - Saat kita membuat class, kita bisa menjadikan sebuah class sebagai abstract class.
+    - Abstract class artinya, class tersebut tidak bisa dibuat sebagai object secara langsung, hanya bisa diturunkan
+    - Untuk membuat sebuah class menjadi abstract, kita bisa menggunakan kata kunci abstract sebelum kata kunci class
+    - Dengan demikian abstract class bisa kita gunakan sebagai kontrak untuk class child
+
+
