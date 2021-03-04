@@ -1,6 +1,6 @@
 package belajar.java.opp.data;
 
-public interface Motor {
+public interface Motor extends punyaBrand,diService{
 
     void drive();
 

@@ -10,4 +10,14 @@ public class Nmax implements Motor{
     public int getRoda() {
         return 2;
     }
+
+
+    public String punyaBrand() {
+        return "Yamaha";
+    }
+
+
+    public boolean diService() {
+        return false;
+    }
 }
