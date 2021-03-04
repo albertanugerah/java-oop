@@ -6,4 +6,8 @@ public interface Car extends HasBrand, isMaintenance{
 
     int getTire();
 
+    default boolean isBig(){
+        return false;
+    }
+
 }
