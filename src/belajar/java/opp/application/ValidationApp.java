@@ -21,5 +21,11 @@ public class ValidationApp {
         } finally{
             System.out.println("Selalu dieksekusi");
         }
+
+        //kegunaan RuntimeException = code agar lebih rapih. Error handle disatu tempat, cukup error hadle disatu tempat.
+        // walaupun RuntimeExcception tidak wajib, direkomendasikan melalukan try-catch, karena program dapat berhenti tanpa try catch
+        LoginRequest loginRequest2 = new LoginRequest(null,null);
+        ValidationUtil.validateRuntime(loginRequest2);
+        System.out.println("sukses");
     }
 }
