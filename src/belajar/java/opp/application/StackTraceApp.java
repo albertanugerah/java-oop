@@ -2,16 +2,24 @@ package belajar.java.opp.application;
 
 public class StackTraceApp {
     public static void main(String[] args) {
+
+        try{
+            sampleError();
+        }catch (RuntimeException exception){
+            exception.printStackTrace();
+
+        }
+    }
+
+    public static void sampleError(){
         try{
             String[] name = {
                     "albert","Anugerah","putra"
             };
-            System.out.println(name[0]);
+            System.out.println(name[100]);
         }
         catch (Throwable throwable){
-            StackTraceElement[] stackTraceElements =  throwable.getStackTrace();
-
-            throwable.printStackTrace();
+            throw new RuntimeException(throwable);
         }
     }
 }
