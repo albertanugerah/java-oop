@@ -11,10 +11,10 @@ class Facebook extends SocialMedia{
 
 }
 
-
-class Instagram extends Facebook{
-    final void login(String username, String password){
-
-    }
-}
+//Error
+//class Instagram extends Facebook{
+//    final void login(String username, String password){
+//
+//    }
+//}
 
