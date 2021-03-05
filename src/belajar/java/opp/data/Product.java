@@ -13,15 +13,16 @@ public class Product {
         return "Product name " + name + ", price " + price;
     }
 
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (o == null || getClass() != o.getClass()) return false;
-//
-//        Product product = (Product) o;
-//
-//        if (price != product.price) return false;
-//        return name != null ? name.equals(product.name) : product.name == null;
-//    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Product product = (Product) o;
+
+        if (price != product.price) return false;
+        return name != null ? name.equals(product.name) : product.name == null;
+    }
 
     @Override
     public int hashCode() {
@@ -30,7 +31,7 @@ public class Product {
         return result;
     }
 
-    //    public boolean equals(Object o){
+//    public boolean equals(Object o){
 //        if (o == this){
 //            return true;
 //        }
